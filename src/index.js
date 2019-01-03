@@ -1,4 +1,7 @@
-import $ from 'jquery';
-// var $ = require('jquery');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-$('div').text('Webpack is working!');
+const rootElement = document.getElementById('root');
+const sampleComponent = <div>React and webpack are working!</div>;
+
+ReactDOM.render(sampleComponent, rootElement);
